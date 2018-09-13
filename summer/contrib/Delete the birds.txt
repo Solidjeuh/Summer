@@ -1,0 +1,9 @@
+Edit the flying birds: /styles/summer/template/birds.html
+===========================================================
+
+Remove the flying birds: 
+Open:
+/styles/summer/template/overal_footer.html
+
+and delete:
+<div id="loadingbirds"><div class="mobilehide">{% INCLUDE 'birds.html' %}</div></div>
