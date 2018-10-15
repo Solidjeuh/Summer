@@ -278,39 +278,39 @@ dl.details dd {
 
 /* Jumpbox */
 .jumpbox .dropdown li {
-	border-top-color: #CCCCCC;
+	border-top-color: #d2ffd2;
 }
 
 .jumpbox-cat-link {
-	background-color: #0076b1;
-	border-top-color: #0076B1;
-	color: #FFFFFF;
+	background-color: #eaffea;
+	border-top-color: #6fff6f;
+	color: #7d7d7d;
 }
 
 .jumpbox-cat-link:hover {
-	background-color: #12A3EB;
-	border-top-color: #12A3EB;
-	color: #FFFFFF;
+	background-color: #c1ffc1;
+	border-top-color: #d2ffd2;
+	color: #6f6f6f;
 }
 
 .jumpbox-forum-link {
-	background-color: #E1EBF2;
+	background-color: #d2ffd2;
 }
 
 .jumpbox-forum-link:hover {
-	background-color: #F6F4D0;
+	background-color: #c4ffc4;
 }
 
 .jumpbox .dropdown .pointer-inner {
-	border-color: #E1EBF2 transparent;
+	border-color: #d2ffd2 transparent;
 }
 
 .jumpbox-sub-link {
-	background-color: #E1EBF2;
+	background-color: #d2ffd2;
 }
 
 .jumpbox-sub-link:hover {
-	background-color: #F1F8FF;
+	background-color: #c4ffc4;
 }
 
 /* Miscellaneous styles
@@ -440,24 +440,24 @@ dl.faq dt {
 ----------------------------------------*/
 /* Quote block */
 blockquote {
-	background-color: #EBEADD;
-	border-color:#DBDBCE;
+	background-color: #c4ffc4;
+	border-color:#80bfff;
 }
 
 blockquote blockquote {
 	/* Nested quotes */
-	background-color:#EFEED9;
+	background-color:#b7ffb7;
 }
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #a6ffa6;
 }
 
 /* Code block */
 .codebox {
-	background-color: #FFFFFF;
-	border-color: #C9D2D8;
+	background-color: #fbfffb;
+	border-color: #80bfff;
 }
 
 .codebox p {
@@ -603,10 +603,6 @@ fieldset.polls dd div {
 	color: #000000;
 }
 
-.online {
-	background-image: url("./en/icon_user_online.gif");
-}
-
 dd.profile-warnings {
 	color: #BC2A4D;
 }
@@ -725,56 +721,56 @@ Colours and backgrounds for buttons.css
 .phpbb_yahoo-icon					{ background-position: -224px 0; }
 
 /* Forum icons & Topic icons */
-.global_read						{ background-image: url("./images/announce_read.gif"); }
-.global_read_mine					{ background-image: url("./images/announce_read_mine.gif"); }
-.global_read_locked					{ background-image: url("./images/announce_read_locked.gif"); }
-.global_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.gif"); }
-.global_unread						{ background-image: url("./images/announce_unread.gif"); }
-.global_unread_mine					{ background-image: url("./images/announce_unread_mine.gif"); }
-.global_unread_locked				{ background-image: url("./images/announce_unread_locked.gif"); }
-.global_unread_locked_mine			{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+.global_read						{ background-image: url("./images/announce_read.png"); }
+.global_read_mine					{ background-image: url("./images/announce_read_mine.png"); }
+.global_read_locked					{ background-image: url("./images/announce_read_locked.png"); }
+.global_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.png"); }
+.global_unread						{ background-image: url("./images/announce_unread.png"); }
+.global_unread_mine					{ background-image: url("./images/announce_unread_mine.png"); }
+.global_unread_locked				{ background-image: url("./images/announce_unread_locked.png"); }
+.global_unread_locked_mine			{ background-image: url("./images/announce_unread_locked_mine.png"); }
 
-.announce_read						{ background-image: url("./images/announce_read.gif"); }
-.announce_read_mine					{ background-image: url("./images/announce_read_mine.gif"); }
-.announce_read_locked				{ background-image: url("./images/announce_read_locked.gif"); }
-.announce_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.gif"); }
-.announce_unread					{ background-image: url("./images/announce_unread.gif"); }
-.announce_unread_mine				{ background-image: url("./images/announce_unread_mine.gif"); }
-.announce_unread_locked				{ background-image: url("./images/announce_unread_locked.gif"); }
-.announce_unread_locked_mine		{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+.announce_read						{ background-image: url("./images/announce_read.png"); }
+.announce_read_mine					{ background-image: url("./images/announce_read_mine.png"); }
+.announce_read_locked				{ background-image: url("./images/announce_read_locked.png"); }
+.announce_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.png"); }
+.announce_unread					{ background-image: url("./images/announce_unread.png"); }
+.announce_unread_mine				{ background-image: url("./images/announce_unread_mine.png"); }
+.announce_unread_locked				{ background-image: url("./images/announce_unread_locked.png"); }
+.announce_unread_locked_mine		{ background-image: url("./images/announce_unread_locked_mine.png"); }
 
-.forum_link							{ background-image: url("./images/forum_link.gif"); }
-.forum_read							{ background-image: url("./images/forum_read.gif"); }
-.forum_read_locked					{ background-image: url("./images/forum_read_locked.gif"); }
-.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.gif"); }
-.forum_unread						{ background-image: url("./images/forum_unread.gif"); }
-.forum_unread_locked				{ background-image: url("./images/forum_unread_locked.gif"); }
-.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.gif"); }
+.forum_link							{ background-image: url("./images/forum_link.png"); }
+.forum_read							{ background-image: url("./images/forum_read.png"); }
+.forum_read_locked					{ background-image: url("./images/forum_read_locked.png"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.png"); }
+.forum_unread						{ background-image: url("./images/forum_unread.png"); }
+.forum_unread_locked				{ background-image: url("./images/forum_unread_locked.png"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.png"); }
 
-.sticky_read						{ background-image: url("./images/sticky_read.gif"); }
-.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.gif"); }
-.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.gif"); }
-.sticky_read_locked_mine			{ background-image: url("./images/sticky_read_locked_mine.gif"); }
-.sticky_unread						{ background-image: url("./images/sticky_unread.gif"); }
-.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.gif"); }
-.sticky_unread_locked				{ background-image: url("./images/sticky_unread_locked.gif"); }
-.sticky_unread_locked_mine			{ background-image: url("./images/sticky_unread_locked_mine.gif"); }
+.sticky_read						{ background-image: url("./images/sticky_read.png"); }
+.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.png"); }
+.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.png"); }
+.sticky_read_locked_mine			{ background-image: url("./images/sticky_read_locked_mine.png"); }
+.sticky_unread						{ background-image: url("./images/sticky_unread.png"); }
+.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.png"); }
+.sticky_unread_locked				{ background-image: url("./images/sticky_unread_locked.png"); }
+.sticky_unread_locked_mine			{ background-image: url("./images/sticky_unread_locked_mine.png"); }
 
-.topic_moved						{ background-image: url("./images/topic_moved.gif"); }
+.topic_moved						{ background-image: url("./images/topic_moved.png"); }
 .pm_read,
-.topic_read							{ background-image: url("./images/topic_read.gif"); }
-.topic_read_mine					{ background-image: url("./images/topic_read_mine.gif"); }
-.topic_read_hot						{ background-image: url("./images/topic_read_hot.gif"); }
-.topic_read_hot_mine				{ background-image: url("./images/topic_read_hot_mine.gif"); }
-.topic_read_locked					{ background-image: url("./images/topic_read_locked.gif"); }
-.topic_read_locked_mine				{ background-image: url("./images/topic_read_locked_mine.gif"); }
+.topic_read							{ background-image: url("./images/topic_read.png"); }
+.topic_read_mine					{ background-image: url("./images/topic_read_mine.png"); }
+.topic_read_hot						{ background-image: url("./images/topic_read_hot.png"); }
+.topic_read_hot_mine				{ background-image: url("./images/topic_read_hot_mine.png"); }
+.topic_read_locked					{ background-image: url("./images/topic_read_locked.png"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_read_locked_mine.png"); }
 .pm_unread,
-.topic_unread						{ background-image: url("./images/topic_unread.gif"); }
-.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.gif"); }
-.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.gif"); }
-.topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.gif"); }
-.topic_unread_locked				{ background-image: url("./images/topic_unread_locked.gif"); }
-.topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.gif"); }
+.topic_unread						{ background-image: url("./images/topic_unread.png"); }
+.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.png"); }
+.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.png"); }
+.topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.png"); }
+.topic_unread_locked				{ background-image: url("./images/topic_unread_locked.png"); }
+.topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.png"); }
 
 
 /*
@@ -858,7 +854,7 @@ ul.cplist {
 }
 
 .responsive-tab .responsive-tab-link:hover:before {
-	border-color: #D31141;
+	border-color: #000000;
 }
 
 /* UCP navigation menu
@@ -868,15 +864,15 @@ ul.cplist {
 .navigation a {
 	color: #333;
 	background: #ffffd5; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #ffcece 50%, #ffffbf 100%);
-	background: linear-gradient(to right, #ffcece 50%,#ffffbf 100%); /* W3C */
+	background: -webkit-linear-gradient(left, #80bfff 50%, #ffffbf 100%);
+	background: linear-gradient(to right, #80bfff 50%,#ffffbf 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcece', endColorstr='#ffffbf',GradientType=1 ); /* IE6-9 */
 }
 
 .rtl .navigation a {
-	background: #ffcece; /* Old browsers */ /* FF3.6+ */
-	background: -webkit-linear-gradient(left, #ffffbf 50%, #ffcece 100%);
-	background: linear-gradient(to right, #ffffbf 50%,#ffcece 100%); /* W3C */
+	background: #80bfff; /* Old browsers */ /* FF3.6+ */
+	background: -webkit-linear-gradient(left, #ffffbf 50%, #80bfff 100%);
+	background: linear-gradient(to right, #ffffbf 50%,#80bfff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffbf', endColorstr='#ffcece',GradientType=1 ); /* IE6-9 */
 }
 
@@ -1123,7 +1119,7 @@ input.disabled {
 }
 
 .dropdown-extended ul li {
-	border-top-color: #B9B9B9;
+	border-top-color: #a0ea88;
 }
 
 .dropdown-extended ul li:hover {
@@ -1132,7 +1128,7 @@ input.disabled {
 }
 
 .dropdown-extended .header, .dropdown-extended .footer {
-	border-color: #B9B9B9;
+	border-color: #a0ea88;
 	color: #000000;
 }
 
@@ -1143,13 +1139,13 @@ input.disabled {
 
 .dropdown-extended .header {
 	background-color: #e1ffe1; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #F1F8FF 0%, #CADCEB 100%);
-	background-image: linear-gradient(to bottom, #F1F8FF 0%,#CADCEB 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F1F8FF', endColorstr='#CADCEB',GradientType=0 ); /* IE6-9 */
+	background-image: -webkit-linear-gradient(top, #c4ffc4 0%, #a0ea88 100%);
+	background-image: linear-gradient(to bottom, #c4ffc4 0%,#a0ea88 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4ffc4', endColorstr='#a0ea88',GradientType=0 ); /* IE6-9 */
 }
 
 .dropdown .pointer {
-	border-color: #B9B9B9 transparent;
+	border-color: #a0ea88 transparent;
 }
 
 .dropdown .pointer-inner {
@@ -1162,7 +1158,7 @@ input.disabled {
 
 .dropdown .dropdown-contents {
 	background: #fffff2;
-	border-color: #B9B9B9;
+	border-color: #a0ea88;
 	box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }
 

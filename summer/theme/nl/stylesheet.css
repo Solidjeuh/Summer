@@ -1,11 +1,12 @@
 /* Online image */
 .online { 
-    background-image: url("./icon_user_online.gif"); 
-	background-repeat: repeat-y; 
+    background-image: url("./icon_user_online.gif");
+	background-repeat: repeat-y;
 }
+
 
 /* Offline image */
 .offline { 
-    background-image: url("./icon_user_offline.gif"); 
+    background-image: url("./icon_user_offline.gif");
 	background-repeat: repeat-y;
 }
